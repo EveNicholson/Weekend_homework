@@ -65,6 +65,10 @@ Eriks_hometown = users["Erik"]["home_town"]
 print(Eriks_hometown)
 
 # 3. Get the list of Erik's lottery numbers
+
+Eriks_lottery_numbers = users["Erik"]["lottery_numbers"]
+print(Eriks_lottery_numbers)
+
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an list of Avril's lottery numbers that are even
