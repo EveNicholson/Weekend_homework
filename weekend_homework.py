@@ -70,6 +70,10 @@ Eriks_lottery_numbers = users["Erik"]["lottery_numbers"]
 print(Eriks_lottery_numbers)
 
 # 4. Get the species of Avril's pet Monty
+
+for species in users["Avril"]["pets"]:
+    print(species)
+
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an list of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
