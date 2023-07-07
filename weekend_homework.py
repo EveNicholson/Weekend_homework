@@ -60,6 +60,10 @@ Jonathans_twitter = users["Jonathan"]["twitter"]
 print(Jonathans_twitter)
 
 # 2. Get Erik's hometown
+
+Eriks_hometown = users["Erik"]["home_town"]
+print(Eriks_hometown)
+
 # 3. Get the list of Erik's lottery numbers
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
