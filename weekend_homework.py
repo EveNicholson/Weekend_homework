@@ -108,3 +108,6 @@ users["Erik"]["pets"].append({"name": "fluffy",
 print(users["Erik"]["pets"])
 
 # 10. Add another person to the users dictionary
+
+users["Ewelina"] = "Ewelina"
+print(users)
