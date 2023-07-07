@@ -111,3 +111,19 @@ print(users["Erik"]["pets"])
 
 users["Ewelina"] = "Ewelina"
 print(users)
+
+# For the following list of numbers:
+
+numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
+
+
+# ADVANCED
+
+# 1. Print out a list of the even integers:
+
+even_integers = []
+for even in numbers:
+    if (even %2 == 0):
+        even_integers.append(even)
+
+print(even_integers)
