@@ -112,12 +112,14 @@ print(users["Erik"]["pets"])
 users["Ewelina"] = "Ewelina"
 print(users)
 
+
+# Extensions
+
 # For the following list of numbers:
 
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 
-# ADVANCED
 
 # 1. Print out a list of the even integers:
 
@@ -127,3 +129,16 @@ for even in numbers:
         even_integers.append(even)
 
 print(even_integers)
+
+
+# 2. Print the difference between the largest and smallest value:
+
+def difference_max_min(numbers):
+    smallest = min(numbers)
+    largest = max(numbers)
+
+    diff = largest - smallest
+
+    return diff
+
+print(difference_max_min(numbers))
